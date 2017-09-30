@@ -1,0 +1,20 @@
+declared-services:
+  conversation-simple-demo-test1:
+    label: conversation
+    plan: free
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: name
+  host: host
+  disk_quota: 1024M
+  services:
+  - services
+  env:
+    CONVERSATION_PASSWORD: password
+    CONVERSATION_USERNAME: username
+    NPM_CONFIG_PRODUCTION: false
+    WORKSPACE_ID: workspace ID
+  command: npm start

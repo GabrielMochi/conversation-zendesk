@@ -1,0 +1,47 @@
+{
+  "name": "conversation-zendesk",
+  "version": "1.0.0",
+  "description": "Integration between the Watson Conversation API and the Zendedsk API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielMochi/conversation-zendesk.git"
+  },
+  "keywords": [
+    "conversation",
+    "zendesk",
+    "watson",
+    "api",
+    "bluemix",
+    "integration"
+  ],
+  "author": "Gabriel Mochi Ribeiro <gmochi56@icloud.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GabrielMochi/conversation-zendesk/issues"
+  },
+  "homepage": "https://github.com/GabrielMochi/conversation-zendesk#readme",
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "body-parser": "^1.0.2",
+    "cfenv": "1.0.x",
+    "express": "^4.13.4",
+    "express-basic-auth": "^0.2.3",
+    "fs": "0.0.1-security",
+    "http-auth": "^3.1.1",
+    "mongoose": "^4.8.1",
+    "morgan": "^1.8.0",
+    "node-zendesk": "1.1.12",
+    "prompt": "^1.0.0",
+    "request": "^2.79.0",
+    "util": "^0.10.3",
+    "watson-developer-cloud": "^2.4.6",
+    "winston": "^2.3.1"
+  },
+  "engines": {
+    "node": "4.x"
+  }
+}
